@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="div-nav"></div>
+    <div class="container v-center" id="root">
+      <div class="div-task mx-auto" id="div-tasks">
+        <div class="card mb-3" id="card-task">
+          <div class="card-header bg-primary text-white">
+            <h2>
+              Task send
+            </h2>
+          </div>
+          <div class="card-body">
+            <form id="frmTask">
+              <div>
+                <h6 class="taskSend-placeholder">Id-forward</h6>
+                <input type="text" class="form-control mb-3" id="txtIdTask" />
+              </div>
+              <div>
+                <h6 class="taskSend-placeholder">Title</h6>
+                <input
+                  type="text"
+                  class="form-control mb-3"
+                  id="txtTitleTask"
+                />
+              </div>
+              <div>
+                <h6 class="taskSend-placeholder">Message</h6>
+                <textarea
+                  class="form-control mb-3"
+                  id="txtMessageTask"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <input
+                  type="submit"
+                  value="Send"
+                  id=""
+                  class="btn btn-dark form-control"
+                  id="btn-sendTask"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

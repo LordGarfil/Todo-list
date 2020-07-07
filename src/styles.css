@@ -1,0 +1,144 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.center{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 415px){
+  .v-center{
+    padding-top: 50px;
+  }
+}
+
+.taskSend-placeholder{
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+#div-avatar img{
+  position: absolute;
+  width: 350px;
+  left: 130px;
+  top: 260px;
+}
+
+@media (max-width: 1400px){
+  .container-login form{
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 450px){
+  .container-login form{
+    padding-bottom: 350px;
+    padding-left: 0px;
+  }
+  .container-login input{
+    width: 200px;
+  }
+  #div-avatar img{
+    left: -25px;
+    top: 370px;
+  }
+  #div-wave img{
+    width: 0;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 1000px){
+	.container-login form{
+    padding-bottom: 250px;
+    padding-right: 300px;
+  }
+  .container-login input{
+    width: 300px;
+  }
+  #div-avatar img{
+    top: 370px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px){
+#div-avatar img{
+  left: 20px;
+}
+}
+
+@media (min-width: 600px) and (max-width:899px){
+  .container .div-task {
+    width: 80vw;
+  }
+  }
+
+  @media (min-width: 900px) {
+    .container .div-task {
+      width: 50vw;
+    }
+    }
+
+  @media (max-width: 800px){
+    .div-searchTasks {
+      margin-top: 10px;
+    }
+    }
+
+    @media (max-width: 800px){
+      .container .div-task {
+        padding-top: 10px;
+      }
+      }
+
+ .container-task{
+   width: 100vw;
+ }
+
+ #tbl-task{
+  min-width: 40vw;
+  max-height: 200px;
+ }
+
+ .btn-icon{
+   outline: none;
+   background-color: transparent;
+   outline-color: none;
+   text-decoration: none;
+   border: none;
+ }
+
+ #img-search-tasks{
+  width: 30px;
+ }
+
+ #btn-search-tasks{
+  outline: none;
+  background-color: transparent;
+  outline-color: none;
+  text-decoration: none;
+  border: none;
+ }
+
+ @media (min-width: 800px){
+ #rootRegister{
+    width: 50%;
+  }
+}
+
+#formRegistration input[type=text], input[type=email]{
+  text-transform: uppercase;
+}
